@@ -1,0 +1,60 @@
+{
+  "schema": 1,
+  "project": "ems-dtsu666-bridge",
+  "generated_from": "pending-ci-build",
+  "recommended_environment": "lilygo_t_can485_foxess",
+  "packages": [
+    {
+      "environment": "lilygo_t_can485_foxess",
+      "label": "LilyGO T-CAN485 / TTGO - FoxESS",
+      "board": "lilygo_t_can485",
+      "inverter": "foxess",
+      "recommended": true,
+      "chip": "esp32",
+      "files": [
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_foxess/bootloader.bin", "offset": "0x1000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_foxess/partitions.bin", "offset": "0x8000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_foxess/firmware.bin", "offset": "0x10000" }
+      ]
+    },
+    {
+      "environment": "lilygo_t_can485_sungrow",
+      "label": "LilyGO T-CAN485 / TTGO - Sungrow",
+      "board": "lilygo_t_can485",
+      "inverter": "sungrow",
+      "recommended": false,
+      "chip": "esp32",
+      "files": [
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow/bootloader.bin", "offset": "0x1000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow/partitions.bin", "offset": "0x8000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow/firmware.bin", "offset": "0x10000" }
+      ]
+    },
+    {
+      "environment": "generic_esp32_foxess",
+      "label": "Generic ESP32 DevKit + RS485 - FoxESS",
+      "board": "generic_esp32",
+      "inverter": "foxess",
+      "recommended": false,
+      "chip": "esp32",
+      "files": [
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/generic_esp32_foxess/bootloader.bin", "offset": "0x1000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/generic_esp32_foxess/partitions.bin", "offset": "0x8000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/generic_esp32_foxess/firmware.bin", "offset": "0x10000" }
+      ]
+    },
+    {
+      "environment": "generic_esp32_sungrow",
+      "label": "Generic ESP32 DevKit + RS485 - Sungrow",
+      "board": "generic_esp32",
+      "inverter": "sungrow",
+      "recommended": false,
+      "chip": "esp32",
+      "files": [
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/generic_esp32_sungrow/bootloader.bin", "offset": "0x1000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/generic_esp32_sungrow/partitions.bin", "offset": "0x8000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/generic_esp32_sungrow/firmware.bin", "offset": "0x10000" }
+      ]
+    }
+  ]
+}
