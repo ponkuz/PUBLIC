@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "ems-dtsu666-bridge",
-  "generated_from": "7584c0ea0d3e77a5a304df8dd3a2a0da5dd8a09a",
+  "generated_from": "160aab17b49f890f46d966356a17f9f283c78313",
   "recommended_environment": "lilygo_t_can485_foxess",
   "packages": [
     {
@@ -28,6 +28,19 @@
         { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow/bootloader.bin", "offset": "0x1000" },
         { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow/partitions.bin", "offset": "0x8000" },
         { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow/firmware.bin", "offset": "0x10000" }
+      ]
+    },
+    {
+      "environment": "lilygo_t_can485_sungrow_rx_callback",
+      "label": "LilyGO T-CAN485 / TTGO - Sungrow RX callback test",
+      "board": "lilygo_t_can485",
+      "inverter": "sungrow",
+      "recommended": false,
+      "chip": "esp32",
+      "files": [
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_rx_callback/bootloader.bin", "offset": "0x1000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_rx_callback/partitions.bin", "offset": "0x8000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_rx_callback/firmware.bin", "offset": "0x10000" }
       ]
     },
     {
