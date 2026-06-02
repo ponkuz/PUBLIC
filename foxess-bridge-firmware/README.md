@@ -2,9 +2,9 @@
 
 Android installer and flashing tools should start from `manifest.json` in this folder. It lists every supported board/inverter package and the exact ESP32 flash offsets.
 
-Recommended first choice: `lilygo_t_can485_foxess` or `lilygo_t_can485_sungrow` for LilyGO T-CAN485 / TTGO style boards with built-in RS485.
+Recommended first choice: `lilygo_t_can485_foxess` for FoxESS or `lilygo_t_can485_sungrow` for the current Sungrow shadow-mode field test on LilyGO T-CAN485 / TTGO style boards with built-in RS485.
 
-`lilygo_t_can485_sungrow_shadow` is a passive Sungrow/DTSU666 validation firmware. It listens on RS485, simulates what the bridge would answer, compares that with the real meter response, and never drives RS485 TX.
+`lilygo_t_can485_sungrow` and `lilygo_t_can485_sungrow_shadow` are passive Sungrow/DTSU666 validation firmware packages. They listen on RS485, simulate what the bridge would answer, compare that with the real meter response, and never drive RS485 TX.
 
 `lilygo_t_can485_sungrow_rx_callback` is a diagnostic Sungrow package for LilyGO boards whose RS485 callback gate behaves inverted. Use it if the normal LilyGO Sungrow package shows zero raw RS485 bytes.
 

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "ems-dtsu666-bridge",
-  "generated_from": "276cfe65c2232515efe6bae7cb4dd74adb8891c7",
+  "generated_from": "d95bdbba568b5bc32b2968ccb59e5fb6a88d8886",
   "recommended_environment": "lilygo_t_can485_foxess",
   "packages": [
     {
@@ -19,9 +19,10 @@
     },
     {
       "environment": "lilygo_t_can485_sungrow",
-      "label": "LilyGO T-CAN485 / TTGO - Sungrow",
+      "label": "LilyGO T-CAN485 / TTGO - Sungrow shadow test",
       "board": "lilygo_t_can485",
       "inverter": "sungrow",
+      "mode": "shadow",
       "recommended": false,
       "chip": "esp32",
       "files": [
