@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "ems-dtsu666-bridge",
-  "generated_from": "0442f9e4b84e2a022b1daa4a7f4f0bd8fdeb140a",
+  "generated_from": "b1f4c74154d43a7b54db389b779d277552270bd6",
   "recommended_environment": "lilygo_t_can485_foxess",
   "packages": [
     {
