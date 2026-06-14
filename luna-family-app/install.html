@@ -3,50 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Luna Family App</title>
+  <title>Luna App</title>
   <style>
-    body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f8faf7; color: #102014; }
+    body { margin: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #fcf9ff; color: #211629; }
     main { max-width: 520px; margin: 0 auto; padding: 32px 20px; }
-    .card { background: #fff; border: 1px solid #e6ede5; border-radius: 8px; padding: 24px; }
+    .card { background: #fff; border: 1px solid #e7ddf6; border-radius: 8px; padding: 24px; }
     h1 { margin: 0 0 8px; font-size: 30px; }
     p { line-height: 1.45; }
-    a.button { display: block; margin-top: 16px; padding: 15px 18px; border-radius: 8px; background: #18a238; color: white; text-align: center; text-decoration: none; font-weight: 800; }
-    .muted { color: #5d6a60; font-size: 14px; }
+    a.button { display: block; margin-top: 16px; padding: 15px 18px; border-radius: 8px; background: #5b2da3; color: white; text-align: center; text-decoration: none; font-weight: 800; }
+    .muted { color: #6c5b79; font-size: 14px; }
   </style>
 </head>
 <body>
   <main>
     <div class="card">
-      <h1>Luna Family App</h1>
+      <h1>Luna App</h1>
       <p id="message">Tikrinamas telefonas...</p>
-      <a id="download" class="button" href="https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.2.apk">Atsisiusti Android APK</a>
-      <p class="muted">Versija 0.1.2+3. Android gali paprasyti leidimo idiegti is narsykles ar failu programos.</p>
+      <a id="download" class="button" href="https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.5.apk">Atsisiųsti Android APK</a>
+      <p class="muted">Versija 0.1.5+6. Android gali paprašyti leidimo įdiegti programėlę iš naršyklės ar failų programos.</p>
     </div>
   </main>
   <script>
-    const androidUrl = "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.2.apk";
+    const androidUrl = "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.5.apk";
     const iosUrl = "";
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     const message = document.getElementById('message');
     const download = document.getElementById('download');
 
     if (/android/i.test(userAgent)) {
-      message.textContent = 'Atpazintas Android telefonas. Pradedamas APK atsisiuntimas.';
+      message.textContent = 'Atpažintas Android telefonas. Pradedamas APK atsisiuntimas.';
       download.href = androidUrl;
       setTimeout(() => window.location.href = androidUrl, 700);
     } else if (/iPad|iPhone|iPod/.test(userAgent)) {
       if (iosUrl) {
-        message.textContent = 'Atpazintas iPhone. Atidaroma iOS/TestFlight nuoroda.';
-        download.textContent = 'Atidaryti iOS nuoroda';
+        message.textContent = 'Atpažintas iPhone. Atidaroma iOS/TestFlight nuoroda.';
+        download.textContent = 'Atidaryti iOS nuorodą';
         download.href = iosUrl;
         setTimeout(() => window.location.href = iosUrl, 700);
       } else {
-        message.textContent = 'iPhone versijai dar reikia TestFlight arba Apple platinimo nuorodos. Kol kas paruostas Android APK.';
+        message.textContent = 'iPhone versijai dar reikia TestFlight arba Apple platinimo nuorodos. Kol kas paruoštas Android APK.';
         download.textContent = 'Android APK';
         download.href = androidUrl;
       }
     } else {
-      message.textContent = 'Pasirink atsisiuntima. Android telefonui naudok APK.';
+      message.textContent = 'Pasirink atsisiuntimą. Android telefonui naudok APK.';
       download.href = androidUrl;
     }
   </script>
