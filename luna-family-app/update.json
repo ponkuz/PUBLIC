@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.1.15",
-  "version_code": 16,
-  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.15.apk",
+  "latest_version": "0.1.16",
+  "version_code": 17,
+  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.16.apk",
   "install_url": "https://ponkuz.github.io/PUBLIC/luna-family-app/install.html",
   "ios_url": "",
-  "release_notes": "Istorija, statistika ir aktyvumo srautas nebekimba laukiant vienos Firebase kolekcijos."
+  "release_notes": "Patikimesni tikslus priminimai telefone ir sutvarkytas admin priminimu saraso isdestymas."
 }
