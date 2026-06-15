@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.1.16",
-  "version_code": 17,
-  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.16.apk",
-  "install_url": "https://ponkuz.github.io/PUBLIC/luna-family-app/install.html",
+  "latest_version": "0.1.17",
+  "version_code": 18,
+  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.17.apk",
+  "install_url": "https://cdn.jsdelivr.net/gh/ponkuz/PUBLIC@main/luna-family-app/install.html",
   "ios_url": "",
-  "release_notes": "Patikimesni tikslus priminimai telefone ir sutvarkytas admin priminimu saraso isdestymas."
+  "release_notes": "Sutvarkyta QR dalinimosi nuoroda: naudojamas veikiantis atsisiuntimo puslapis be GitHub Pages 404."
 }
