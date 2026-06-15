@@ -1,8 +1,9 @@
 {
-  "latest_version": "0.1.18",
-  "version_code": 19,
-  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.18.apk",
-  "install_url": "https://cdn.jsdelivr.net/gh/ponkuz/PUBLIC@main/luna-family-app/install.html",
+  "latest_version": "0.1.20",
+  "version_code": 21,
+  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.20.apk",
+  "install_url": "https://raw.githack.com/ponkuz/PUBLIC/main/luna-family-app/install.html",
+  "latest_apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-latest.apk",
   "ios_url": "",
-  "release_notes": "Pridetas maudymo mygtuko garsas ir maudymo animacijos rezimas."
+  "release_notes": "QR kodas atidaro tikra atsisiuntimo puslapi su Android/iPhone pasirinkimais. Atnaujinta maudymo animacija ir supaprastinta sveikatos istorija."
 }
