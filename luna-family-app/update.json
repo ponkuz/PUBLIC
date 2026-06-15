@@ -1,8 +1,8 @@
 {
-  "latest_version": "0.1.12",
-  "version_code": 13,
-  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.12.apk",
+  "latest_version": "0.1.13",
+  "version_code": 14,
+  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.13.apk",
   "install_url": "https://ponkuz.github.io/PUBLIC/luna-family-app/install.html",
   "ios_url": "",
-  "release_notes": "Private Luna App update."
+  "release_notes": "Local reminder scheduling, walk start-stop timer, bathing tracking, groomer contacts, and notification build fix."
 }
