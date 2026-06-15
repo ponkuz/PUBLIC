@@ -1,9 +1,9 @@
 {
-  "latest_version": "0.1.22",
-  "version_code": 23,
-  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.22.apk",
+  "latest_version": "0.1.23",
+  "version_code": 24,
+  "apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-0.1.23.apk",
   "install_url": "https://raw.githack.com/ponkuz/PUBLIC/main/luna-family-app/install.html",
   "latest_apk_url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/luna-family-app/luna-family-app-latest.apk",
   "ios_url": "",
-  "release_notes": "Automatinis priminimas isvesti Luna po 1 val. 30 min. nuo paskutinio pasivaiksciojimo, be pranesimu 22:00-06:00. Pranesimai naudoja Lunos garsa tris kartus."
+  "release_notes": "Firebase push priminimai gali ateiti ir tada, kai Luna App uzdaryta. Pranesimai naudoja Lunos garsa."
 }
