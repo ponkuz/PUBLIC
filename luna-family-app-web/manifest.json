@@ -1,7 +1,7 @@
 {
   "name": "Luna App",
   "short_name": "Luna",
-  "start_url": ".",
+  "start_url": "/PUBLIC/luna-family-app-web/",
   "display": "standalone",
   "background_color": "#fff9ff",
   "theme_color": "#6f549a",
@@ -31,5 +31,6 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ]
+  ],
+  "id": "/PUBLIC/luna-family-app-web/"
 }
