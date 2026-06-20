@@ -31,6 +31,38 @@
 
   <title>Luna App</title>
   <link rel="manifest" href="manifest.json">
+
+<script>
+  (function () {
+    // Keep installed PWA clients from staying on an old Flutter web bundle.
+    var versionKey = 'luna-pwa-version';
+    function clearFlutterCaches() {
+      if (!('caches' in window)) return Promise.resolve();
+      return caches.keys().then(function (keys) {
+        return Promise.all(keys
+          .filter(function (key) {
+            return key.indexOf('flutter') !== -1 || key.indexOf('luna_family_app') !== -1;
+          })
+          .map(function (key) { return caches.delete(key); }));
+      });
+    }
+    window.addEventListener('load', function () {
+      fetch('version.json?ts=' + Date.now(), { cache: 'no-store' })
+        .then(function (response) { return response.ok ? response.json() : null; })
+        .then(function (version) {
+          if (!version) return;
+          var next = [version.version, version.build_number].filter(Boolean).join('+');
+          var current = localStorage.getItem(versionKey);
+          if (!next || current === next) return;
+          localStorage.setItem(versionKey, next);
+          if (!current) return;
+          clearFlutterCaches().then(function () { window.location.reload(); });
+        })
+        .catch(function () {});
+    });
+  })();
+</script>
+
 </head>
 <body>
   <!--
