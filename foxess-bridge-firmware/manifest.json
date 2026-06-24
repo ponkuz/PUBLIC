@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "project": "ems-dtsu666-bridge",
-  "generated_from": "797bc6a47639a8297792decae72eafaa14d92da6",
+  "generated_from": "1cfe5bd8f8dc0f0289cc13ab6e60df557d4082b0",
   "recommended_environment": "lilygo_t_can485_foxess",
   "packages": [
     {
@@ -43,6 +43,20 @@
         { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_shadow/bootloader.bin", "offset": "0x1000" },
         { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_shadow/partitions.bin", "offset": "0x8000" },
         { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_shadow/firmware.bin", "offset": "0x10000" }
+      ]
+    },
+    {
+      "environment": "lilygo_t_can485_sungrow_active_test",
+      "label": "LilyGO T-CAN485 / TTGO - Sungrow active test with SD logging",
+      "board": "lilygo_t_can485",
+      "inverter": "sungrow",
+      "mode": "active_test",
+      "recommended": false,
+      "chip": "esp32",
+      "files": [
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_active_test/bootloader.bin", "offset": "0x1000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_active_test/partitions.bin", "offset": "0x8000" },
+        { "url": "https://raw.githubusercontent.com/ponkuz/PUBLIC/main/foxess-bridge-firmware/lilygo_t_can485_sungrow_active_test/firmware.bin", "offset": "0x10000" }
       ]
     },
     {
